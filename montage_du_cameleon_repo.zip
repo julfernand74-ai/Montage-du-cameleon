@@ -1,1 +1,13 @@
+# Dézipper le projet
+unzip montage_du_cameleon_repo.zip
+cd montage_du_cameleon_repo
 
+# Initialiser Git
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit - Montage du Caméléon"
+
+# Lier à ton repo GitHub
+git remote add origin https://github.com/TON_UTILISATEUR/montage-du-cameleon.git
+git push -u origin main
